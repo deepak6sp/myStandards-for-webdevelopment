@@ -1,0 +1,37 @@
+steps for yomen installation
+
+1)install node from website - nodejs.org
+	check -> type "node -v" on cmd
+
+2) npm install -g yo 
+	for installing yomen
+
+3) npm install -g generator-webapp
+	for website generator
+
+4) mkdir [directory-name] and cd [directory-name]
+
+5) type yo / [yo webapp] without brackets and select options before installing
+
+	who-who Thats it!! yomen installed with generators
+
+6) grunt server 
+	-  to load a webpage/webapp from local node server
+
+7) grunt build 
+	- to minify files and dump to dist folder
+
+
+ Bower
+
+8) npm install -g bower
+
+9) bower install [pacakge] 
+	- package such as angular.js , backbone.js
+
+8) bower init 
+	-for making a bower.jason file
+
+9) bower list --paths 
+	-to find paths quickly via cmd
+
