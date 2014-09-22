@@ -1,4 +1,4 @@
-steps for yomen installation
+STEPS FOR YOMEN INSTALLATION
 
 1)install node from website - nodejs.org
 	check -> type "node -v" on cmd
