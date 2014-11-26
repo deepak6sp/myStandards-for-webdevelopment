@@ -37,14 +37,14 @@
 
 		mail($to,$subject,$message,$headers);
 ?>
-<!--  display success message -->
+<!--  disply success message -->
 <h4> Thanks for contacting bayside restaurant</h4>
 <?php } else { ?>
 
-	<form method = "post" action="">
+	<form class ="form" method = "post" action="">
 		<h3><label for="name">Name</label></h3> <input id="name" name="name" type="text" placeholder="Name">
-		<h3><label for="email">Email</label></h3>  <input id="email" name="email" type="text" placeholder="Email">
-		<h3><label for="message">Message</label></h3>  <textarea id="message" name="message" placeholder="Message"> </textarea><br>
+		<h3><label for="email">Email</label></h3>  <input id="email" name="email" type="text" placeholder="example@mail.com">
+		<h3><label for="message">Message</label></h3>  <textarea id="message" name="message" placeholder="Enter your message here"></textarea>
 		<div id="subscribe">
 			<input type="checkbox" id="subscrib">
 			<h3><label for="subscrib">Subscribe to receive latest offers</label></h3>
