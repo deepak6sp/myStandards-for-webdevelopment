@@ -6,6 +6,6 @@
 3) css3generetors.com
 
 #performance
-1) minify css and js - require.js
+1) minify css and js
 2) yslow addon extension 
 3) compress images - http://wearekiss.com/spritepad
