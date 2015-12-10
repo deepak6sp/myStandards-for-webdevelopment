@@ -1,0 +1,7 @@
+npm error rectified
+
+npm config set registry "http://registry.npmjs.org"
+
+npm config set strict-ssl false
+
+npm install -g -d yo
